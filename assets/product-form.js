@@ -132,7 +132,6 @@ if (!customElements.get('product-form')) {
           this.submitButton.removeAttribute('disabled');
           this.submitButtonText.textContent = window.variantStrings.addToCart;
         }
-        console.log(this)
       }
 
       get variantIdInput() {
