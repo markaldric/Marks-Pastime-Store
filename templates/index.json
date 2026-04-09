@@ -11,8 +11,24 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_4V7Aqi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP ALL",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_4V7Aqi"
+      ],
       "settings": {
-        "image": "shopify://shop_images/home_banner.jpg",
+        "image": "shopify://shop_images/home_banner_2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "image_behavior": "none",
